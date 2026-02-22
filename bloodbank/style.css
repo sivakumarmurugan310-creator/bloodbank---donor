@@ -1,0 +1,9 @@
+body { font-family: 'Segoe UI'; margin:0; padding:0; background: #222; color:#fff; }
+.container { background: rgba(0,0,0,0.7); padding:30px; border-radius:15px; width:90%; max-width:1000px; margin:30px auto; }
+button { background:#ff4b5c; color:#fff; border:none; border-radius:8px; padding:10px 20px; cursor:pointer; margin:10px; }
+button:hover { background:#ff1f3a; }
+table { width:100%; border-collapse:collapse; margin-top:20px; background:rgba(0,0,0,0.5); }
+th,td { padding:12px; border-bottom:1px solid #ddd; color:#fff; }
+th { background: rgba(0,0,0,0.7); }
+#map { height:400px; width:100%; border-radius:15px; margin-top:20px; }
+@media screen and (max-width:768px){ #map{height:300px;} }
